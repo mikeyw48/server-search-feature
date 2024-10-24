@@ -18,7 +18,7 @@ export default function SearchTest({ searchParams }){
     return (
         <div>
             <form method="get" action="">
-                <Input defaultValue="" name="term" type="text" />
+                <Input defaultValue={searchTerm} name="term" type="text" />
                 <Button type="submit">Submit</Button>
             </form>
             <form className="w-full">
